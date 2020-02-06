@@ -49,6 +49,7 @@
             <e p="CameraMover.cs" t="Include" />
             <e p="CubeSpawner.cs" t="Include" />
             <e p="Direction.cs" t="Include" />
+            <e p="EnableOnGameState.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="MovingCube.cs" t="Include" />
             <e p="ScoreText.cs" t="Include" />

@@ -5,12 +5,14 @@ using UnityEngine;
 
 public class CameraMover : MonoBehaviour
 {
-
-    private int maxSpawn = 0;
-    private int currentSpawnCount = 0;
+    private int _currentSpawnIndex = 0;
+    
+    [SerializeField]
+    [Tooltip("number of squares (0 based) that have to spawn until the camera will move")]
+    private int maxSpawnIndex = 0;
     private void Start()
     {
-        currentSpawnCount = 0;
+        _currentSpawnIndex = 0;
         GameManager.OnCubeSpawned += GameManager_OnCubeSpawned;
     }
 
@@ -21,10 +23,11 @@ public class CameraMover : MonoBehaviour
 
     private void GameManager_OnCubeSpawned()
     {
-        currentSpawnCount++;
-        if (currentSpawnCount > maxSpawn)
+        _currentSpawnIndex++;
+        if (_currentSpawnIndex > maxSpawnIndex)
         {
-            currentSpawnCount = 0;
+            _currentSpawnIndex = 0;
+            
             Vector3 newPosition = new Vector3(transform.position.x, transform.position.y + 0.1f, transform.position.z);
             StartCoroutine(LerpToPosition(0.2f, newPosition));
         }

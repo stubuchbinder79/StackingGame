@@ -1,29 +1,60 @@
 using System;
+using System.ComponentModel;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public enum GameState
+{
+    Init, Play, Paused, GameOver
+}
 
 public class GameManager : MonoBehaviour
 {
-    public static event Action OnCubeSpawned = delegate {  };
+    public static event Action OnStartGame = delegate { };
+    public static event Action OnCubeSpawned = delegate { };
+    public static event Action<GameState> OnGameState = delegate { };
+
+    private GameState _gameState;
+    public  GameState GameState
+    {
+        get => _gameState;
+        set {
+            _gameState = value;
+            OnGameState(value);
+        }
+    }
+
     [SerializeField]
-    private CubeSpawner[] _spawners;
+    private CubeSpawner[] spawners;
 
     private int _currentSpawnerIndex;
 
     private void Awake()
     {
+        spawners = FindObjectsOfType<CubeSpawner>();
         _currentSpawnerIndex = 0;
+
+        MovingCube.OnGameOver += MovingCube_OnGameOver;
     }
 
     private void Start()
     {
+        GameState = GameState.Init;
+    }
+
+    private void StartGame()
+    {
+        GameState = GameState.Play;
+        
         SpawnCube();
+        OnStartGame();
     }
 
     private void SpawnCube()
     {
-        _spawners[_currentSpawnerIndex].SpawnCube();
+        spawners[_currentSpawnerIndex].SpawnCube();
         _currentSpawnerIndex++;
-        if (_currentSpawnerIndex > _spawners.Length - 1)
+        if (_currentSpawnerIndex > spawners.Length - 1)
         {
             _currentSpawnerIndex = 0;
         }
@@ -31,16 +62,33 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        
         if (Input.GetMouseButtonDown(0))
         {
-            if (MovingCube.CurrentCube != null) {
-                MovingCube.CurrentCube.Stop();
-            }
-            
-            SpawnCube();
-            OnCubeSpawned();
 
+            switch (GameState)
+            {
+                case GameState.Init:
+                    StartGame();
+                    break;
+                case GameState.Play:
+                    if (MovingCube.CurrentCube != null) {
+                        MovingCube.CurrentCube.Stop();
+                    }
+                    SpawnCube();
+                    OnCubeSpawned();
+                    break;
+
+                case GameState.GameOver:
+                    SceneManager.LoadScene(0);
+                    break;
+            }
         }
     }
-    
+
+    private void MovingCube_OnGameOver()
+    {
+        GameState = GameState.GameOver;
+    }
+
 }

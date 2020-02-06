@@ -1,19 +1,24 @@
 ﻿using System;
-using System.Diagnostics;
-using TreeEditor;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 using Debug = UnityEngine.Debug;
 
 public class MovingCube : MonoBehaviour
 {
+    public static event Action OnGameOver = delegate { };
     public static MovingCube CurrentCube { get; private set; }
     public static GameObject LastCube { get; private set; }
     public Direction MoveDirection { get; set; }
     
-    [SerializeField] private float moveSpeed = 1f;
+    [SerializeField] 
+    private float moveSpeed = 1f;
 
-    private bool _isMoving = false;
+    [SerializeField] 
+    [Tooltip("% acceptable overhang for a perfect drop")]
+    private float hangoverBuffer = 0.03f;
+
+    [SerializeField]
+    private bool isMoving  = false;
 
     private void OnEnable()
     {
@@ -26,7 +31,7 @@ public class MovingCube : MonoBehaviour
 
 
         transform.localScale = new Vector3(LastCube.transform.localScale.x, transform.localScale.y, LastCube.transform.localScale.z);;
-        _isMoving = true;
+        isMoving = true;
     }
 
     private Color GetRandomColor()
@@ -36,7 +41,7 @@ public class MovingCube : MonoBehaviour
 
     private void Update()
     {
-        if (_isMoving)
+        if (isMoving)
         {
             if (MoveDirection == Direction.Z)
                 transform.position += moveSpeed * Time.deltaTime * transform.forward;
@@ -49,7 +54,7 @@ public class MovingCube : MonoBehaviour
     public void Stop()
     {
         moveSpeed = 0;
-        _isMoving = false;
+        isMoving = false;
 
         Debug.LogFormat("Stop: {0}", LastCube.name);
         float hangover;
@@ -58,6 +63,12 @@ public class MovingCube : MonoBehaviour
             hangover = transform.position.z - LastCube.transform.position.z;
         else
             hangover = transform.position.x - LastCube.transform.position.x;
+        
+        if (Mathf.Abs(hangover) < hangoverBuffer)
+        {
+            Debug.LogFormat("PERFECT drop");
+            hangover = 0;
+        }
 
 
         float max = MoveDirection == Direction.Z ? LastCube.transform.localScale.z : LastCube.transform.localScale.x;
@@ -65,7 +76,10 @@ public class MovingCube : MonoBehaviour
         {
             LastCube = null;
             CurrentCube = null;
-            SceneManager.LoadScene(0);
+            isMoving = false;
+            Destroy(gameObject);
+            
+            OnGameOver();
             return;
         }
         float direction = hangover > 0 ? 1f : -1f;

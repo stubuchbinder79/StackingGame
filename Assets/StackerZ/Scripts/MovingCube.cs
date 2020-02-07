@@ -23,7 +23,7 @@ public class MovingCube : MonoBehaviour
 
     private void Awake()
     {
-        GameManager.OnGameState
+        
     }
 
     private void OnDestroy()

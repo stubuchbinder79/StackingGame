@@ -9,6 +9,24 @@ public class CubeSpawner : MonoBehaviour
     [SerializeField]
     private Direction moveDirection;
 
+    private void Awake()
+    {
+        GameManager.OnCubeSpawned += GameManager_OnCubeSpawned;
+    }
+
+    private void OnDestroy()
+    {
+        GameManager.OnCubeSpawned -= GameManager_OnCubeSpawned;
+    }
+
+    void GameManager_OnCubeSpawned()
+    {
+        if (MovingCube.LastCube != null &&
+            MovingCube.LastCube.gameObject != GameObject.Find("Start"))
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y + 0.1f, transform.position.z);
+        }
+    }
     public void SpawnCube()
     {
         var cube =  Instantiate(cubePrefab);

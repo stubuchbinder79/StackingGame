@@ -35,9 +35,7 @@ public class GameManager : MonoBehaviour
         Instance = this;
         
         spawners = FindObjectsOfType<CubeSpawner>();
-        _currentSpawnerIndex = 0;
-
-        MovingCube.OnGameOver += MovingCube_OnGameOver;
+       
     }
 
     private void Start()
@@ -47,9 +45,9 @@ public class GameManager : MonoBehaviour
 
     private void StartGame()
     {
-        GameState = GameState.Play;
-        
+        _currentSpawnerIndex = 0;
         SpawnCube();
+        GameState = GameState.Play;
         OnStartGame();
     }
 

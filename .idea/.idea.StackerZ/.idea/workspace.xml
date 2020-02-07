@@ -5,15 +5,240 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StackerZ/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StackerZ/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StackerZ/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StackerZ/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StackerZ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StackerZ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/2DConfinedTargetGroup.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/2DConfinedTargetGroup.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/2DConfiner.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/2DConfiner.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/2DTargetGroup.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/2DTargetGroup.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/BlendListCamera.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/BlendListCamera.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/ClearShot.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/ClearShot/CM ClearShot1 Blends.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/ClearShot/CM ClearShot1 Blends.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/ClearShot/ClearShot character.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/ClearShot/ClearShot character.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/ClearShot/ClearShot closest.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/ClearShot/ClearShot closest.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/ClearShot/ClearShot.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/ClearShot/ClearShot.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/ClearShot/TIMELINE world animsTimeline.playable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/ClearShot/TIMELINE world animsTimeline.playable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Composer Look Ahead.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Composer Look Ahead.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Composer.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Composer.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Custom Blends.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Custom Blends/BlenderSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Custom Blends/BlenderSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Custom Blends/Custom Blends.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Custom Blends/Custom Blends.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Custom Blends/Noise_CM_4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Custom Blends/Noise_CM_4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/FollowCam Simple Follow.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/FollowCam Simple Follow.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/FollowCam.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/FollowCam.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/FollowZoom.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/FollowZoom.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Free Look character.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Free Look character.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Free Look collider.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Free Look collider.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Impulse.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Impulse/Impulse.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Impulse/Impulse.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Impulse/Y Bump Signal Definition.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Impulse/Y Bump Signal Definition.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/MixingCamera.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/MixingCamera.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Noise.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Noise.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/OverTheShoulderAim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/OverTheShoulderAim/ActivateOnKeypress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/OverTheShoulderAim/ActivateOnKeypress.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/OverTheShoulderAim/OverTheShoulderAim.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/OverTheShoulderAim/OverTheShoulderAim.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Scripting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Scripting/Scripting.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Scripting/Scripting.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Scripting/ScriptingExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Scripting/ScriptingExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/SphericalSurfaceFollow.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/SphericalSurfaceFollow.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/StateDrivenCamera.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/StateDrivenCamera.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Timeline.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Timeline/Timeline.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Timeline/Timeline.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Timeline/TimelineTimeline.playable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Timeline/TimelineTimeline.playable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Tracked Dolly.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Tracked Dolly/CM vcam1Timeline.playable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Tracked Dolly/CM vcam1Timeline.playable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Tracked Dolly/Dolly Auto.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Tracked Dolly/Dolly Auto.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Tracked Dolly/Dolly Cart.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Tracked Dolly/Dolly Cart.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Tracked Dolly/Dolly Group.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Tracked Dolly/Dolly Group.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Transposer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Transposer/Cube.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Transposer/Cube.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Transposer/Transposer.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Transposer/Transposer.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Transposer/cube movement.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Transposer/cube movement.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Trigger volumes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Trigger volumes/GenericTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Trigger volumes/GenericTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Trigger volumes/Timeline trigger cube.playable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Trigger volumes/Timeline trigger cube.playable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Trigger volumes/Trigger cube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Trigger volumes/Trigger cube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Trigger volumes/Trigger volume Timeline.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Trigger volumes/Trigger volume Timeline.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Trigger volumes/Trigger volume.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Trigger volumes/Trigger volume.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Animation/Cube.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Animation/Cube.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Animation/cube A motion.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Animation/cube A motion.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Animation/cube B motion.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Animation/cube B motion.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Blends.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Blends/CM StateDrivenCameraBlends.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Blends/CM StateDrivenCameraBlends.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/Bouncy 1.physicmaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/Bouncy 1.physicmaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/Default_Prototype.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/Default_Prototype.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/Default_Prototype_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/Default_Prototype_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/GridBox_Trigger.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/GridBox_Trigger.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/Ground big.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/Ground big.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/Ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/Ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/RedThing.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/RedThing.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/Trigger.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/Trigger.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/checkerboard.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Materials/checkerboard.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Jog.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Jog.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Sprint.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Sprint.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Walk.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Walk.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Controllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Controllers/CharacterController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Controllers/CharacterController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/DefaultMale.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/DefaultMale.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Materials/DefaultMale_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Materials/DefaultMale_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Occlusion.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Occlusion.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_SpecSmooth.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_SpecSmooth.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Prefabs/3rdPersonController.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Prefabs/3rdPersonController.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts/CharacterMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts/CharacterMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts/CharacterMovement2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts/CharacterMovement2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Corridors_1_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Corridors_1_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Environment_2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Environment_2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Environment_Clear_BluePedestal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Environment_Clear_BluePedestal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Environment_Corridor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Environment_Corridor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Environment_CorridorMixingCam.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Environment_CorridorMixingCam.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Environment_Narrow_Walls.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Environment_Narrow_Walls.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10_BluePedestal.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10_BluePedestal.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_1Wall_10x10.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_1Wall_10x10.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_2Walls_10x10.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_2Walls_10x10.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_LWall_10x10.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_LWall_10x10.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_UWall_10x10.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_UWall_10x10.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Wall_10x4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Wall_10x4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Stage1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Stage1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Stage2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Prefabs/Stage2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/ActivateCamOnPlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/ActivateCamOnPlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/ActivateCameraWithDistance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/ActivateCameraWithDistance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/ExampleHelpWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/ExampleHelpWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/MixingCameraBlend.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/MixingCameraBlend.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/PlayerMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/PlayerMove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/PlayerMoveOnSphere.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/PlayerMoveOnSphere.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/PlayerMovePhysics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Scripts/PlayerMovePhysics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures/GridBox_Default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures/GridBox_Default.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures/GridBox_Trigger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures/GridBox_Trigger.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures/GridBox_Trigger.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures/GridBox_Trigger.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures/GridBox_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures/GridBox_blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures/checkerboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures/checkerboard.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures/crosshair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Textures/crosshair.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StackerZ/Prefabs/MovingCube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StackerZ/Prefabs/MovingCube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StackerZ/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StackerZ/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StackerZ/Scripts/CameraMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StackerZ/Scripts/CameraMover.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StackerZ/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StackerZ/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StackerZ/Scripts/MovingCube.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StackerZ/Scripts/MovingCube.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StackerZ/Scripts/ScoreText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StackerZ/Scripts/ScoreText.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +254,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/StackerZ/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StackerZ/Scripts/CameraMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StackerZ/Scripts/MovingCube.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StackerZ/Scripts/DeadZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StackerZ/Scripts/Direction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StackerZ/Scripts/EnableOnGameState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StackerZ/Scripts/ScoreText.cs" root0="FORCE_HIGHLIGHTING" />
@@ -42,7 +268,9 @@
         <option value="$PROJECT_DIR$/Assets/StackerZ/Scripts/GameStateEnable.cs" />
         <option value="$PROJECT_DIR$/Assets/StackerZ/Scripts/ScoreText.cs" />
         <option value="$PROJECT_DIR$/Assets/StackerZ/Scripts/EnableOnGameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/StackerZ/Scripts/CubeBouncer.cs" />
         <option value="$PROJECT_DIR$/Assets/StackerZ/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/StackerZ/Scripts/DeadZone.cs" />
         <option value="$PROJECT_DIR$/Assets/StackerZ/Scripts/MovingCube.cs" />
       </list>
     </option>
@@ -113,7 +341,9 @@
       <workItem from="1581010112438" duration="491000" />
       <workItem from="1581012205941" duration="1941000" />
       <workItem from="1581018044692" duration="903000" />
-      <workItem from="1581019880492" duration="853000" />
+      <workItem from="1581019880492" duration="994000" />
+      <workItem from="1581039315657" duration="1160000" />
+      <workItem from="1581041141891" duration="391000" />
     </task>
     <servers />
   </component>

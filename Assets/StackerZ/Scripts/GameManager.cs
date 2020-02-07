@@ -10,6 +10,7 @@ public enum GameState
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance { get; private set; }
     public static event Action OnStartGame = delegate { };
     public static event Action OnCubeSpawned = delegate { };
     public static event Action<GameState> OnGameState = delegate { };
@@ -31,6 +32,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
+        
         spawners = FindObjectsOfType<CubeSpawner>();
         _currentSpawnerIndex = 0;
 
@@ -87,6 +90,11 @@ public class GameManager : MonoBehaviour
     }
 
     private void MovingCube_OnGameOver()
+    {
+        GameState = GameState.GameOver;
+    }
+
+    public void GameOver()
     {
         GameState = GameState.GameOver;
     }

@@ -5,7 +5,6 @@ using Debug = UnityEngine.Debug;
 
 public class MovingCube : MonoBehaviour
 {
-    public static event Action OnGameOver = delegate { };
     public static MovingCube CurrentCube { get; private set; }
     public static GameObject LastCube { get; private set; }
     public Direction MoveDirection { get; set; }
@@ -13,12 +12,24 @@ public class MovingCube : MonoBehaviour
     [SerializeField] 
     private float moveSpeed = 1f;
 
+    private float moveDirection = 1f;
+    
     [SerializeField] 
     [Tooltip("% acceptable overhang for a perfect drop")]
     private float hangoverBuffer = 0.03f;
 
     [SerializeField]
     private bool isMoving  = false;
+
+    private void Awake()
+    {
+        GameManager.OnGameState
+    }
+
+    private void OnDestroy()
+    {
+        
+    }
 
     private void OnEnable()
     {
@@ -44,9 +55,9 @@ public class MovingCube : MonoBehaviour
         if (isMoving)
         {
             if (MoveDirection == Direction.Z)
-                transform.position += moveSpeed * Time.deltaTime * transform.forward;
+                transform.position += (moveSpeed * moveDirection) * Time.deltaTime * transform.forward;
             else
-                transform.position += moveSpeed * Time.deltaTime * transform.right;
+                transform.position += (moveSpeed * moveDirection) * Time.deltaTime * transform.right;
         }
         
     }
@@ -74,12 +85,12 @@ public class MovingCube : MonoBehaviour
         float max = MoveDirection == Direction.Z ? LastCube.transform.localScale.z : LastCube.transform.localScale.x;
         if (Mathf.Abs(hangover) >= max)
         {
+            
+            GameManager.Instance.GameOver();
             LastCube = null;
             CurrentCube = null;
             isMoving = false;
             Destroy(gameObject);
-            
-            OnGameOver();
             return;
         }
         float direction = hangover > 0 ? 1f : -1f;
@@ -143,5 +154,10 @@ public class MovingCube : MonoBehaviour
         cube.AddComponent<Rigidbody>();
         cube.GetComponent<Renderer>().material.color = GetComponent<Renderer>().material.color;
         Destroy(cube.gameObject, 1f);
+    }
+
+    public void Bounce()
+    {
+        moveDirection = moveDirection * -1f;
     }
 }
